@@ -24,7 +24,7 @@ Adapted from https://codepen.io/franciscoknebel/pen/pgmYMo
             container.style.top = '0';
             container.style.left = '0';
             container.style.width = '100%';
-            container.style.height = '100%';
+            container.style.minHeight = '100%';
             container.style.pointerEvents = 'none';
             container.style.backgroundColor = 'rgba(0, 0, 0, ' + (options && options.opacity ? options.opacity : 0) + ')';
             container.style.zIndex = '-1';
